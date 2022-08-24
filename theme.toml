@@ -1,8 +1,8 @@
-name = "Coder"
+name = "Coder Lightweight"
 license = "MIT"
-licenselink = "https://github.com/luizdepra/hugo-coder/blob/master/LICENSE.md"
-description = "A simple and clean blog theme for Hugo"
-homepage = "https://github.com/luizdepra/hugo-coder/"
+licenselink = "https://github.com/PandaSekh/hugo-coder-lt/blob/master/LICENSE.md"
+description = "A lightweight, simple and clean blog theme for Hugo"
+homepage = "https://github.com/PandaSekh/hugo-coder-lt"
 tags = [
   "blog",
   "minimal",
@@ -13,9 +13,7 @@ tags = [
   "personal"
 ]
 features = [
-  "analytics",
   "favicon",
-  "multilingual",
   "pagination",
   "single-column",
   "syntax-highlighting"
@@ -23,5 +21,9 @@ features = [
 min_version = "0.79.0"
 
 [author]
+name = "Alessio Franceschi"
+homepage = "https://alessiofranceschi.dev"
+[original]
 name = "Luiz F. A. de Prá"
 homepage = "https://luizdepra.com"
+repo = "https://github.com/luizdepra/hugo-coder"
