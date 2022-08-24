@@ -7,7 +7,7 @@ min = "0.77.0"
 [minify]
   disableCSS = false
   disableHTML = false
-  disableJS = false
+  disableJS = true
   disableJSON = false
   disableSVG = false
   disableXML = false
@@ -36,23 +36,3 @@ min = "0.77.0"
       precision = 0
     [minify.tdewolff.xml]
       keepWhitespace = false
-
-[caches]
-  [caches.assets]
-    dir = ':resourceDir/_gen'
-    maxAge = -1
-  [caches.getcsv]
-    dir = ':cacheDir/:project'
-    maxAge = -1
-  [caches.getjson]
-    dir = ':cacheDir/:project'
-    maxAge = -1
-  [caches.getresource]
-    dir = ':cacheDir/:project'
-    maxAge = -1
-  [caches.images]
-    dir = ':resourceDir/_gen'
-    maxAge = -1
-  [caches.modules]
-    dir = ':cacheDir/modules'
-    maxAge = -1

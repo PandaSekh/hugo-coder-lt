@@ -30,19 +30,18 @@
     margin-bottom: 0;
     margin-top: 0;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 576px) {
       position: relative;
+      display: flex;
+      justify-content: center;
       top: 2rem;
       right: 0;
       z-index: 5;
-      visibility: hidden;
-      opacity: 0;
       padding: 0;
       max-height: 0;
       width: 100%;
       background-color: $bg-color;
       border-top: solid 2px $alt-bg-color;
-      border-bottom: solid 2px $alt-bg-color;
       transition: opacity 0.25s, max-height 0.15s linear;
     }
 
@@ -51,7 +50,7 @@
       margin: 0;
       position: relative;
 
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 576px) {
         float: none !important;
         text-align: center;
 
@@ -69,13 +68,13 @@
     }
 
     .separator {
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 576px) {
         display: none;
       }
     }
 
     .menu-separator {
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 576px) {
         border-top: 2px solid $fg-color;
         margin: 0 8rem;
 
@@ -99,7 +98,7 @@
   #menu-toggle {
     display: none;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 576px) {
       &:checked+label>i {
         color: $alt-bg-color;
       }
@@ -115,7 +114,7 @@
   .menu-button {
     display: none;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 576px) {
       position: relative;
       display: block;
       font-size: 2.4rem;
