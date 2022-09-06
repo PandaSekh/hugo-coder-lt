@@ -36,3 +36,17 @@ min = "0.77.0"
       precision = 0
     [minify.tdewolff.xml]
       keepWhitespace = false
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
