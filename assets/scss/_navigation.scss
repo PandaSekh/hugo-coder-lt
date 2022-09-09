@@ -22,6 +22,10 @@
   .navigation-title {
     letter-spacing: 0.1rem;
     text-transform: uppercase;
+
+    @media only screen and (max-width: 576px) {
+      margin: auto;
+    }
   }
 
   .navigation-list {

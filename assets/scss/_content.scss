@@ -3,6 +3,10 @@
   justify-content: center;
 }
 
+.video-shortcode {
+  max-width: 100%;
+}
+
 .content {
   flex: 1;
   display: flex;
@@ -55,7 +59,6 @@
     }
 
     p {
-      text-align: justify;
       text-justify: auto;
       hyphens: auto;
     }
