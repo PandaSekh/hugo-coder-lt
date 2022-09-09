@@ -10,14 +10,14 @@
 
   <p align="center">
     <a href="https://github.com/luizdepra/hugo-coder">
-      <img src="images/logos/logotype-a.png" alt="Hugo Coder Logo" width="600px" height="184px">
+      <img src="image/logos/logotype-a.png" alt="Hugo Coder Logo" width="600px" height="184px">
     </a>
   </p>
 </p>
 
 A simple and clean blog theme for [Hugo](https://gohugo.io/).
 
-![](images/screenshot.png)
+![](image/screenshot.png)
 
 ## Live Demo
 

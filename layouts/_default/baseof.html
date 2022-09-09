@@ -6,11 +6,6 @@
   </head>
 
 {{ $csClass := "colorscheme-light" }}
-{{ if eq .Site.Params.colorScheme "dark" }}
-{{ $csClass = "colorscheme-dark" }}
-{{ else if eq .Site.Params.colorScheme "auto" }}
-{{ $csClass = "colorscheme-auto" }}
-{{ end }}
 
 <body class="preload-transitions {{ $csClass }}{{ if .Site.Params.rtl }} rtl{{ end }}">
   <main class="wrapper">
@@ -32,8 +27,6 @@
   <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
   {{ end }}
   {{ end }}
-
-  {{- partial "body/extensions" . -}}
 </body>
 
 </html>
